@@ -11,6 +11,9 @@
   <a href="https://github.com/Pantani">
     <img src="https://img.shields.io/badge/All%20Repositories-111111?style=for-the-badge&logo=github&logoColor=white" alt="All Repositories" />
   </a>
+  <a href="https://pantani.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio / CV" />
+  </a>
   <a href="https://www.linkedin.com/in/dpantani">
     <img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -53,38 +56,45 @@ var pantani = struct {
 <table>
 <tr>
 <td width="50%" valign="top">
-  <a href="https://github.com/Pantani/errors"><b>errors</b></a>
+  <a href="https://github.com/ignite/cli"><b>ignite/cli</b></a>
   <br />
-  Clean error abstraction for Go services.
+  Cosmos SDK scaffolding, protoanalysis, AST-driven code generation.
 </td>
 <td width="50%" valign="top">
-  <a href="https://github.com/Pantani/logger"><b>logger</b></a>
+  <a href="https://github.com/atomone-hub/atomone"><b>atomone-hub/atomone</b></a>
   <br />
-  Logging package with sane defaults for Go apps.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/Pantani/gincache"><b>gincache</b></a>
-  <br />
-  Memory cache middleware for gin APIs.
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/Pantani/redis"><b>redis</b></a>
-  <br />
-  Simple Redis abstraction for Go services.
+  AtomOne chain — distribution module and governance-migration logic.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <a href="https://github.com/Pantani/request"><b>request</b></a>
+  <a href="https://github.com/ignite/network"><b>ignite/network</b></a>
   <br />
-  Request/client abstraction.
+  Cosmos network-launch coordination and sovereign chain lifecycle infra.
 </td>
 <td width="50%" valign="top">
-  <a href="https://github.com/Pantani/pool-party"><b>pool-party</b></a>
+  <a href="https://github.com/cosmos/gaia"><b>cosmos/gaia</b></a>
   <br />
-  Multi-coin address pool generation for BIP44.
+  Cosmos Hub — protocol code and chain tooling.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/atomone-hub/cosmos-sdk"><b>atomone-hub/cosmos-sdk</b></a>
+  <br />
+  Cosmos SDK fork — upstream contributions and module-composition fixes.
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/allinbits/vaas"><b>allinbits/vaas</b></a>
+  <br />
+  Validation-as-a-Service — Interchain Security / shared PoS security.
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top" align="center">
+  <a href="https://github.com/trustwallet/blockatlas"><b>trustwallet/blockatlas</b></a>
+  <br />
+  Multi-chain indexing, market-data routes, full-node tooling.
 </td>
 </tr>
 </table>
@@ -105,12 +115,10 @@ var pantani = struct {
 ## /stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Pantani&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&hide=issues,contribs&bg_color=00000000" alt="GitHub Stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pantani&layout=compact&hide_border=true&theme=tokyonight&bg_color=00000000&langs_count=8&hide=jupyter%20notebook,tex,css,php" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=Pantani&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak" />
+  <img src="https://img.shields.io/github/followers/Pantani?style=for-the-badge&logo=github&label=Followers&color=58A6FF&labelColor=0d1117" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/ignite/cli?style=for-the-badge&logo=github&label=ignite%2Fcli%20%E2%98%85&color=FFCA28&labelColor=0d1117" alt="ignite/cli stars" />
+  <img src="https://img.shields.io/github/stars/atomone-hub/atomone?style=for-the-badge&logo=github&label=atomone%20%E2%98%85&color=FF6B6B&labelColor=0d1117" alt="atomone stars" />
+  <img src="https://img.shields.io/github/stars/cosmos/gaia?style=for-the-badge&logo=github&label=cosmos%2Fgaia%20%E2%98%85&color=6E40C9&labelColor=0d1117" alt="cosmos/gaia stars" />
 </div>
 
 ## /trophies
