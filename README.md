@@ -147,9 +147,9 @@ var pantani = struct {
 <br />
 
 <div align="center">
-  <a href="https://www.buymeacoffee.com/pantani">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="52" alt="Buy Me a Coffee" />
-  </a>
+  <a href='https://ko-fi.com/Z1B620KWTN' target='_blank'>
+    <img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+  </a>  
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:58a6ff,50:6e40c9,100:0d1117&section=footer"/>
