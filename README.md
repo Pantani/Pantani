@@ -91,10 +91,15 @@ var pantani = struct {
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top" align="center">
+<td width="50%" valign="top">
   <a href="https://github.com/trustwallet/blockatlas"><b>trustwallet/blockatlas</b></a>
   <br />
   Multi-chain indexing, market-data routes, full-node tooling.
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/Pantani/stellar-forge"><b>Pantani/stellar-forge</b></a>
+  <br />
+  Rust CLI for manifest-driven Stellar workspaces, validation and release planning.
 </td>
 </tr>
 <tr>
@@ -107,13 +112,6 @@ var pantani = struct {
   <a href="https://github.com/Pantani/sunscreen"><b>Pantani/sunscreen</b></a>
   <br />
   Solana CLI scaffolding and dev-loop orchestration with Rust and Anchor.
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top" align="center">
-  <a href="https://github.com/Pantani/stellar-forge"><b>Pantani/stellar-forge</b></a>
-  <br />
-  Rust CLI for manifest-driven Stellar workspaces, validation and release planning.
 </td>
 </tr>
 </table>
