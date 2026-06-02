@@ -97,6 +97,25 @@ var pantani = struct {
   Multi-chain indexing, market-data routes, full-node tooling.
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/Pantani/tdmcp"><b>Pantani/tdmcp</b></a>
+  <br />
+  TouchDesigner MCP server for playable node networks, live controls and preview checks.
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/Pantani/sunscreen"><b>Pantani/sunscreen</b></a>
+  <br />
+  Solana CLI scaffolding and dev-loop orchestration with Rust and Anchor.
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top" align="center">
+  <a href="https://github.com/Pantani/stellar-forge"><b>Pantani/stellar-forge</b></a>
+  <br />
+  Rust CLI for manifest-driven Stellar workspaces, validation and release planning.
+</td>
+</tr>
 </table>
 
 ## /stack
