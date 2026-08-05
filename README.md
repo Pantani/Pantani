@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0d1117,50:6e40c9,100:58a6ff&section=header&text=Pantani&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=35"/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=Blockchain+Engineer;Golang+Developer;Cosmos+SDK+Builder;Shipping+protocols%2C+infra+and+products" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=Senior+Go+Engineer;Backend+and+Distributed+Systems;Platform+Engineering;Blockchain+Infrastructure" alt="Senior Go Engineer; Backend and Distributed Systems; Platform Engineering; Blockchain Infrastructure" />
 </div>
 
 <div align="center">
@@ -26,7 +26,7 @@
 <br />
 
 <div align="center">
-  <sub><b>I build decentralized systems, backend infra and crypto-native products that actually ship.</b></sub>
+  <sub><b>I build backend platforms, distributed systems, developer tooling, and blockchain infrastructure in Go.</b></sub>
 </div>
 
 ---
@@ -43,11 +43,11 @@ var pantani = struct {
   Building []string
   Stack    []string
 }{
-  Role:     "Full-stack / Blockchain Engineer",
+  Role:     "Senior Go Engineer",
   Status:   "Open to work",
-  Focus:    []string{"Golang", "Cosmos SDK", "Distributed Systems", "Backend Architecture"},
-  Building: []string{"APIs", "Infra", "Tooling", "Crypto-native Products"},
-  Stack:    []string{"Go", "TypeScript", "Rust", "Docker", "Linux"},
+  Focus:    []string{"Go", "Backend Engineering", "Distributed Systems", "Platform Engineering"},
+  Building: []string{"APIs", "Developer Tooling", "Infrastructure", "Blockchain Systems"},
+  Stack:    []string{"Go", "Kubernetes", "gRPC", "Protocol Buffers", "Docker"},
 }
 ```
 
@@ -58,60 +58,68 @@ var pantani = struct {
 <td width="50%" valign="top">
   <a href="https://github.com/ignite/cli"><b>ignite/cli</b></a>
   <br />
-  Cosmos SDK scaffolding, protoanalysis, AST-driven code generation.
+  300+ merged PRs across protobuf analysis, AST-driven code generation, scaffolding migrations, CLI UX, and developer tooling.
+  <br />
+  <a href="https://github.com/ignite/cli/pulls?q=is%3Apr+author%3APantani+is%3Amerged">Merged PRs</a>
 </td>
 <td width="50%" valign="top">
-  <a href="https://github.com/atomone-hub/atomone"><b>atomone-hub/atomone</b></a>
+  <a href="https://github.com/trustwallet/blockatlas"><b>trustwallet/blockatlas</b></a>
   <br />
-  AtomOne chain — distribution module and governance-migration logic.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/ignite/network"><b>ignite/network</b></a>
+  200+ merged PRs across multi-chain indexing, market-data routes, RPC integrations, concurrency, and full-node tooling.
   <br />
-  Cosmos network-launch coordination and sovereign chain lifecycle infra.
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/cosmos/gaia"><b>cosmos/gaia</b></a>
-  <br />
-  Cosmos Hub — protocol code and chain tooling.
+  <a href="https://github.com/trustwallet/blockatlas/pulls?q=is%3Apr+author%3APantani+is%3Amerged">Merged PRs</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <a href="https://github.com/atomone-hub/cosmos-sdk"><b>atomone-hub/cosmos-sdk</b></a>
+  <a href="https://github.com/atomone-hub/atomone-sdk"><b>atomone-hub/atomone-sdk</b></a>
   <br />
-  Cosmos SDK fork — upstream contributions and module-composition fixes.
+  Implemented the ADR-004 distribution-module behavior, followed by epoch timing, governance-migration, and validator-commission changes.
+  <br />
+  <a href="https://github.com/atomone-hub/atomone-sdk/pull/10">PR #10</a> · <a href="https://github.com/atomone-hub/atomone-sdk/pull/69">PR #69</a> · <a href="https://github.com/atomone-hub/atomone-sdk/pull/83">PR #83</a>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/cosmos/ibc-go"><b>cosmos/ibc-go</b></a>
+  <br />
+  Upstream Go contribution supporting capability-keeper composition for downstream modules.
+  <br />
+  <a href="https://github.com/cosmos/ibc-go/pull/6716">PR #6716</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/hermeznetwork/hermez-node"><b>hermeznetwork/hermez-node</b></a>
+  <br />
+  Go backend and protocol-adjacent engineering for an Ethereum Layer 2 operator stack based on zk-SNARKs.
 </td>
 <td width="50%" valign="top">
   <a href="https://github.com/allinbits/vaas"><b>allinbits/vaas</b></a>
   <br />
-  Validation-as-a-Service — Interchain Security / shared PoS security.
+  Validator infrastructure and automation across consumer-chain lifecycle, misbehaviour validation, and operations workflows.
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/trustwallet/blockatlas"><b>trustwallet/blockatlas</b></a>
-  <br />
-  Multi-chain indexing, market-data routes, full-node tooling.
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/Pantani/stellar-forge"><b>Pantani/stellar-forge</b></a>
-  <br />
-  Rust CLI for manifest-driven Stellar workspaces, validation and release planning.
-</td>
-</tr>
+</table>
+
+### Current Tools & Experiments
+
+<table>
 <tr>
 <td width="50%" valign="top">
   <a href="https://github.com/Pantani/tdmcp"><b>Pantani/tdmcp</b></a>
   <br />
-  TouchDesigner MCP server for playable node networks, live controls and preview checks.
+  TouchDesigner MCP server for playable node networks, live controls, and preview checks.
 </td>
 <td width="50%" valign="top">
+  <a href="https://github.com/Pantani/stellar-forge"><b>Pantani/stellar-forge</b></a>
+  <br />
+  Rust CLI for manifest-driven Stellar workspaces, validation, and release planning.
+</td>
+</tr>
+<tr>
+<td width="100%" colspan="2" valign="top">
   <a href="https://github.com/Pantani/sunscreen"><b>Pantani/sunscreen</b></a>
   <br />
-  Solana CLI scaffolding and dev-loop orchestration with Rust and Anchor.
+  Solana CLI scaffolding and development-loop orchestration with Rust and Anchor.
 </td>
 </tr>
 </table>
@@ -120,53 +128,27 @@ var pantani = struct {
 
 <div align="center">
   <img src="https://img.shields.io/badge/Go-111111?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Kubernetes-111111?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/gRPC-111111?style=for-the-badge&logo=google&logoColor=white" alt="gRPC" />
+  <img src="https://img.shields.io/badge/Protocol%20Buffers-111111?style=for-the-badge&logo=google&logoColor=white" alt="Protocol Buffers" />
+  <img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Prometheus-111111?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
+  <img src="https://img.shields.io/badge/Grafana-111111?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
+  <img src="https://img.shields.io/badge/Cosmos%20SDK-111111?style=for-the-badge" alt="Cosmos SDK" />
+  <img src="https://img.shields.io/badge/IBC-111111?style=for-the-badge" alt="IBC" />
+</div>
+
+<div align="center">
+  <sub>Complementary languages</sub>
+  <br />
   <img src="https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Rust-111111?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/Cosmos%20SDK-111111?style=for-the-badge" alt="Cosmos SDK" />
-  <img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=white" alt="Linux" />
-  <img src="https://img.shields.io/badge/Redis-111111?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </div>
 
 ## /stats
 
 <div align="center">
   <img src="https://img.shields.io/github/followers/Pantani?style=for-the-badge&logo=github&label=Followers&color=58A6FF&labelColor=0d1117" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/ignite/cli?style=for-the-badge&logo=github&label=ignite%2Fcli%20%E2%98%85&color=FFCA28&labelColor=0d1117" alt="ignite/cli stars" />
-  <img src="https://img.shields.io/github/stars/atomone-hub/atomone?style=for-the-badge&logo=github&label=atomone%20%E2%98%85&color=FF6B6B&labelColor=0d1117" alt="atomone stars" />
-  <img src="https://img.shields.io/github/stars/cosmos/gaia?style=for-the-badge&logo=github&label=cosmos%2Fgaia%20%E2%98%85&color=6E40C9&labelColor=0d1117" alt="cosmos/gaia stars" />
-</div>
-
-## /trophies
-
-<div align="center">
-  <img src="https://github-trophies.vercel.app/?username=Pantani&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1" alt="GitHub Trophies" />
-</div>
-
-## /support
-
-<div align="center">
-  <a href="https://etherscan.io/address/0x5574Cd97432cEd0D7Caf58ac3c4fEDB2061C98fB">
-    <img src="https://img.shields.io/badge/ETH-0x5574...C98fB-627EEA?style=for-the-badge&logo=ethereum&logoColor=white" alt="Donate Ethereum" />
-  </a>
-  <a href="https://www.blockchain.com/btc/address/bc1qd7eystu9xl53hkyxm4kyg7h5yk4p436sqx6f27">
-    <img src="https://img.shields.io/badge/BTC-bc1qd7...x6f27-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Donate Bitcoin" />
-  </a>
-</div>
-
-<div align="center">
-  <code>ETH: 0x5574Cd97432cEd0D7Caf58ac3c4fEDB2061C98fB</code>
-  <br />
-  <code>BTC: bc1qd7eystu9xl53hkyxm4kyg7h5yk4p436sqx6f27</code>
-</div>
-
-<br />
-
-<div align="center">
-  <a href='https://ko-fi.com/Z1B620KWTN' target='_blank'>
-    <img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-  </a>  
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:58a6ff,50:6e40c9,100:0d1117&section=footer"/>
