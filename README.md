@@ -38,13 +38,13 @@ package main
 
 var pantani = struct {
   Role     string
-  Company  string
+  Status   string
   Focus    []string
   Building []string
   Stack    []string
 }{
   Role:     "Full-stack / Blockchain Engineer",
-  Company:  "Ignite",
+  Status:   "Open to work",
   Focus:    []string{"Golang", "Cosmos SDK", "Distributed Systems", "Backend Architecture"},
   Building: []string{"APIs", "Infra", "Tooling", "Crypto-native Products"},
   Stack:    []string{"Go", "TypeScript", "Rust", "Docker", "Linux"},
